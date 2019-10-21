@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "faunadb": "^2.9.2",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-scripts": "3.2.0"
@@ -10,8 +11,6 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "start:functions": "netlify-lambda serve src/functions",
-    "build:functions": "netlify-lambda build src/functions",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -29,8 +28,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "netlify-lambda": "^1.6.3"
   }
 }
