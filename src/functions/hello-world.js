@@ -1,6 +1,11 @@
 exports.handler = async (event, context) => {
+  const data = {
+    name: 'chris',
+    twitter: 'chrisoncode'
+  };
+
   return {
     statusCode: 200,
-    body: "Hello, World"
+    body: JSON.stringify(data)
   };
 };
